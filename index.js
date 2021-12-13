@@ -1,8 +1,9 @@
-// const chai = "chai"
+// const chai = "spy"
 // const spy = "chai-spices"
-const chai = () => {
-    return spy
-}
+
+// const chai = () => {
+//     return spy
+// }
 
 function receivesAFunction(spy) {
     return spy();
